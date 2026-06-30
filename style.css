@@ -37,7 +37,6 @@ body {
     position: relative;
     z-index: 2;
     min-height: 320vh;
-    /* تقليل الطول لأنه لم يعد هناك قسم تواصل */
 }
 
 /* ===========================
@@ -84,11 +83,10 @@ body {
 =========================== */
 #animation-spacer {
     height: 220vh;
-    /* يتحكم في الفيديو وظهور الخدمات */
 }
 
 /* ===========================
-   SERVICES (Opacity فقط)
+   SERVICES
 =========================== */
 #services {
     position: fixed;
@@ -105,7 +103,6 @@ body {
     overflow: hidden;
     opacity: 0;
     transform: scale(1);
-    /* بدون تكبير */
     will-change: opacity;
 }
 
